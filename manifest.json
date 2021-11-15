@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "in-fo-nt",
+    "version": "1.0",
+
+    "description": "gives you information about fonts in a webpage",
+
+    "background":{
+        "scripts": ["background.js"]
+    },
+
+    "icons": {
+        "48": "/in-fo-nt48.png"
+    },
+
+    "browser_action":{
+        "browser_style": true,
+        "default_icon": {
+            "48": "/in-fo-nt48.png"
+        },
+        "default_title": "in-fo-nt"
+    },
+
+    "permissions":[
+        "storage",
+        "activeTab"
+    ]
+}
